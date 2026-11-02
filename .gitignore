@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Pytest / Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Scraper output CSVs (keep exports/ dir via .gitkeep)
+exports/*.csv
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
